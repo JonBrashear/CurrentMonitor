@@ -1,0 +1,4 @@
+#!/bin/bash
+Time=$(ssh daq "date -u +"%H:%M:%S"")
+sudo date --set $Time
+sudo hwclock -w
