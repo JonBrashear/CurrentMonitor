@@ -89,7 +89,7 @@ for i in range(0,10):
     plt.grid(1)
     plt.xlabel('Time')
     plt.ylabel("Current (A)")
-    plt.ylim([9,18])
+    plt.ylim([0,9])
     plt.xlim([(FiveMinutesBefore),(T-60)])
     plt.xticks(Locs,Ticks)
     string="Graph of Current vs Time for CH "+str(i+1)
